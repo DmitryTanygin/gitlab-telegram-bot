@@ -40,3 +40,7 @@ app.post('/webhook', (req, res) => {
         res.sendStatus(400);
     }
 });
+
+app.listen(3000, () => {
+    console.log('Сервер запущен и слушает на порту 3000');
+});
