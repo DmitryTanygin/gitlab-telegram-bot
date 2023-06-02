@@ -12,4 +12,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 3000
-CMD [ "node", "bot.js" ]
+CMD [ "npm", "run", "start" ]
